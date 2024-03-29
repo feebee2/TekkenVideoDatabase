@@ -1,0 +1,14 @@
+﻿
+@model VideoLink
+
+<form asp-action="AddVideo" method="POST">
+    <label asp-for="TimeStamp">Add the match link</label>
+    <input asp-for="TimeStamp">
+    <label asp-for="Player1">Add Player1</label>
+    <input asp-for="Player1">
+    <label asp-for="Player2">Add Player1</label>
+    <input asp-for="Player2">
+
+
+    <button type="submit">Add</button>
+</form>
